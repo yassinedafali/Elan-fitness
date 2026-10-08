@@ -162,7 +162,12 @@ button:focus-visible {
   z-index: 10;
   background-color: #FFFFFF;
   border-bottom: 1px solid #E5E7EB;
+  
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 40px;
 }
+
 
 .en-tete-contenu {
   height: 80px;
@@ -172,22 +177,14 @@ button:focus-visible {
 }
 
 .logo {
-  display: flex;
-  align-items: center;
   font-family: 'Poppins', Arial, sans-serif;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 700px;
+  right:50px;
   color: #0F1B2D;
 }
 
-.logo::after {
-  content: "";
-  width: 10px;
-  height: 10px;
-  margin-left: 8px;
-  background-color: #FF6B2C;
-  border-radius: 50%;
-}
+
 
 .menu {
   display: flex;
@@ -434,7 +431,7 @@ button:focus-visible {
 }
 
 .formule {
-  position: relative;
+  position: fixed;
   display: flex;
   flex-direction: column;
   padding: 28px;
@@ -544,4 +541,24 @@ button:focus-visible {
   margin-top: 24px;
   font-size: 13px;
   color: #94A3B8;
+}
+.col_boton{
+  color: #D1FAE5;
+  background-color:#C2410C;
+  height:fit-content;
+  width: fit-content;
+
+}
+.info{
+ border: 2px solid red;
+  padding: 10px;
+  border-bottom-left-radius: 50px 20px;
+  display: inline-block;
+  position: relative;
+  top:0.5x;
+  left: 600px;
+}
+.logo {
+    width: 150px; 
+    height: auto;
 }
