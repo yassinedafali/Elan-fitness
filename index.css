@@ -1,0 +1,26 @@
+.parent{
+    background-color: blanchedalmond;
+    height: 200px;
+    width: 50px;
+
+}
+.parent div{
+    height: 40px;
+
+}
+.two{
+    background-color: blue;
+    height: 10px;
+    width: 30px
+}
+.three{
+    color: brown;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+}
+.one{
+    background-color: aqua;
+    height: 70px;
+    width:  40px;
+}
