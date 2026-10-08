@@ -552,3 +552,13 @@ button:focus-visible {
   width: fit-content;
 
 }
+.info{
+ border: 2px solid red;
+  padding: 10px;
+  border-bottom-left-radius: 50px 20px;
+  display: inline-block;
+  position: relative;
+  bottom: 250px;
+  left: 600px;
+}
+
