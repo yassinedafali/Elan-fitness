@@ -545,3 +545,10 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+.col_boton{
+  color: #D1FAE5;
+  background-color:#C2410C;
+  height:fit-content;
+  width: fit-content;
+
+}
