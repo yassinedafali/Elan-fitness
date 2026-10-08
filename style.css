@@ -555,6 +555,7 @@ button:focus-visible {
   border-bottom-left-radius: 50px 20px;
   display: inline-block;
   position: relative;
+<<<<<<< HEAD
   top:0.5x;
   left: 600px;
 }
@@ -562,3 +563,9 @@ button:focus-visible {
     width: 150px; 
     height: auto;
 }
+=======
+  bottom: 250px;
+  left: 600px;
+}
+
+>>>>>>> 501ec03ab85930fd7f8aecee10fbfa8bd423895d
