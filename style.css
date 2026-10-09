@@ -95,20 +95,23 @@ button:focus-visible {
   font-weight: 600;
   text-align: center;
   cursor: pointer;
+
 }
 
 .bouton-principal {
-  background-color: #FF6B2C;
+  background-color:orangered;
   border: 1px solid #FF6B2C;
-  color: #FFFFFF;
+  color:black;
 }
 
-.bouton-principal:hover {
-  background-color: #F05817;
+.bouton-principal:focus{
+
+  background-color: white;
+  
 }
 
 .bouton-secondaire {
-  background-color: #FFFFFF;
+  background-color: orangered;
   border: 1px solid #0F1B2D;
   color: #0F1B2D;
 }
@@ -167,7 +170,6 @@ button:focus-visible {
   justify-content: flex-end;
   padding: 10px 40px;
 }
-
 
 .en-tete-contenu {
   height: 80px;
@@ -501,7 +503,7 @@ button:focus-visible {
 }
 
 .pied-de-page {
-  padding: 48px 0 32px;
+  padding: 20px 0 32px;
   background-color: #0F1B2D;
   color: #FFFFFF;
 }
@@ -542,20 +544,13 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
-.col_boton{
-  color: #D1FAE5;
-  background-color:#C2410C;
-  height:fit-content;
-  width: fit-content;
 
-}
 .info{
  border: 2px solid red;
   padding: 10px;
   border-bottom-left-radius: 50px 20px;
   display: inline-block;
   position: relative;
-<<<<<<< HEAD
   top:0.5x;
   left: 600px;
 }
@@ -563,9 +558,172 @@ button:focus-visible {
     width: 150px; 
     height: auto;
 }
-=======
-  bottom: 250px;
-  left: 600px;
+@media (max-width: 1024px) {
+  .section {
+    padding: 64px 0;
+  }
+
+  .hero-contenu {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-description {
+    margin: 0 auto 32px;
+  }
+
+  .boutons {
+    justify-content: center;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 350px;
+  }
+
+  .apropos-contenu {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .apropos-image {
+    width: 100%;
+    height: 320px;
+  }
+
+  .cartes {
+    flex-wrap: wrap;
+  }
+
+  .carte-avantage,
+  .carte-programme,
+  .formule {
+    flex: 1 1 calc(50% - 24px);
+    min-width: 260px;
+  }
+
+  .valeurs {
+    flex-wrap: wrap;
+  }
+
+  .valeur {
+    flex: 1 1 calc(50% - 16px);
+  }
 }
 
->>>>>>> 501ec03ab85930fd7f8aecee10fbfa8bd423895d
+
+@media (max-width: 768px) {
+  .section {
+    padding: 48px 0;
+  }
+
+  .section-titre {
+    margin-bottom: 40px;
+  }
+
+  .section-titre h2 {
+    font-size: 26px;
+  }
+
+  .en-tete-contenu {
+    height: auto;
+    padding: 16px 0;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .menu {
+    gap: 16px;
+  }
+
+  
+  .hero {
+    padding: 32px 0 48px;
+  }
+
+  .hero-texte h1 {
+    font-size: 32px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+  }
+
+  .boutons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .bouton {
+    width: 100%;
+  }
+
+  .chiffres {
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 40px;
+    padding: 24px;
+  }
+
+  .chiffre + .chiffre {
+    border-left: none;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 24px;
+  }
+
+  .chiffre-nombre {
+    font-size: 28px;
+  }
+
+  .carte-avantage,
+  .carte-programme,
+  .formule,
+  .valeur {
+    flex: 1 1 100%;
+  }
+
+  .formules {
+    margin-top: 48px;
+  }
+
+  .pied-haut {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .menu-pied {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .pied-bas {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+  }
+}
+.back{
+  background-image: url("/img/backgraundimg.jpg");
+height:500PX;
+width: 2000px;
+background-size:cover;
+}
+.name{
+  color: black;
+  font-size: medium;
+  background-color: #C2410C;
+  height: fit-content;
+  width: fit-content;
+}
+.abd{
+  color: #CBD5E1;
+  font-size:50Px;
+}
+
+.img:hover{
+  transform: scale(1.2);
+}
